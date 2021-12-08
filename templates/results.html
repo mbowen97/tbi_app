@@ -1,7 +1,28 @@
+<!doctype html>
+<html lang = 'en'>
+
+<style>
+.button{
+  display:inline-block;
+}
+</style>
+
+<title>TBI Rapid Quiz: Results</title>
+
 <h2>TBI Rapid Quiz: Results</h2>
 <p> Our model calculates the patient has a <b>{{p}}%</b> chance of experiencing a critical TBI outcome.</p>
-<p> We <u>{{r}}</u> a CT Scan at this time.
+<p> We <u>{{r}}</u> a CT Scan at this time.</p>
 
-<form action='/' method='GET'>
-    <input type="submit" value="Retake Quiz" />
-</form>
+<div class = 'wrapper'>
+    <form action='/' method='GET' class = 'button'>
+        <input type="submit" value="Retake Quiz" />
+    </form>
+
+    <form action="/model_weights" class = 'button'>
+        <input type="submit" value="View Weights" />
+    </form>
+
+    <form action="model_variables" class = 'button'>
+        <input type="submit" value="View Variables" />
+    </form>
+<div>
