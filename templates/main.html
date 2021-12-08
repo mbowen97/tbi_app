@@ -1,0 +1,14 @@
+<h2>TBI Rapid Quiz</h2>
+<p><i>Disclaimer:</i> These results are in no way meant to serve as, replace, or counter the advice of a qualified medical professional. If you believe you have recently suffered from
+        a traumatic brain injury (TBI), schedule an appointment with a trusted healthcare provider immediately.</p>
+<form action='/results' method='POST'>
+    <ol>
+        {% for i in q %}
+            <li>{{i}}</li>
+            {% for j in q[i] %}
+                    <input type='radio' value='{{j}}' name='{{i}}' />{{j}} <br>
+            {% endfor %} <br>
+        {% endfor %}
+    </ol>
+    <input type="submit" value="Submit" />
+</form>

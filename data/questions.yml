@@ -1,0 +1,108 @@
+AMSAgitated:
+  q: 'Is the patient acting more agitated than usual?'
+  0: 'No, but they are not acting normal'
+  1: 'Yes'
+  92: 'No, they are acting normal'
+ActNorm:
+  q: 'Is the patient acting normal?'
+  0: 'No'
+  1: 'Yes'
+Clav:
+  q: 'Is there evidence of trauma (laceration, abrasion, hematoma, etc.) above the clavicles?'
+  0: 'No'
+  1: 'Yes'
+Dizzy:
+  q: 'Does the patient appear dizzy?'
+  0: 'No'
+  1: 'Yes'
+Drugs:
+  q: 'Is there a reasonable suspicion of drugs in the patients system?'
+  0: 'No'
+  1: 'Yes'
+GCSEye:
+  q: 'Eye movement is:'
+  3: 'Abnormal/Nonexistent'
+  4: 'Normal'
+GCSVerbal:
+  q: 'Speech is:'
+  4: 'Confused/Nonexistent'
+  5: 'Normal'
+HASeverity:
+  q: 'How severe is the headache?'
+  1: 'Mild/Barely Noticeable'
+  2: 'Moderate'
+  3: 'Severe/Intense'
+  92: 'Not Applicable'
+HAStart:
+  q: 'Headache began:'
+  1: 'Before the injury'
+  2: 'Within 1 hour of the injury'
+  3: '1-4 hours after injury'
+  4: 'More than 4 hours after injury'
+  92: 'Not Applicable'
+HA_verb:
+  q: 'Is the patient suffering from a headache?'
+  0: 'No'
+  1: 'Yes'
+  91: 'Unknown/Patient Cannot Communicate'
+HemaLoc:
+  q: 'Where is the hematoma located?'
+  1: 'Frontal Lobe'
+  2: 'Occipital Lobe'
+  3: 'Parietal/Temporal Lobe'
+  92: 'Not Applicable'
+HemaSize:
+  q: 'How large is the hematoma?'
+  1: 'Small (less than 1 cm across)'
+  2: 'Medium (1-3 cm across)'
+  3: 'Large (more than 3 cm across)'
+  92: 'Not Applicable'
+High_impact_InjSev:
+  q: 'How severe was the impact?'
+  1: 'Low'
+  2: 'Moderate'
+  3: 'High'
+LOCSeparate:
+  q: 'Does the patient have a history of loss of consciousness?'
+  0: 'No'
+  1: 'Yes'
+  2: 'Suspected, but not confirmed'
+LocLen:
+  q: 'How long was the loss of consciousness event?'
+  1: 'Less than 5 seconds'
+  2: '5-60 seconds'
+  3: '1-5 minutes'
+  4: 'Over 5 minutes'
+  92: 'Not Applicable'
+SeizLen:
+  q: 'How long was the seizure?'
+  1: 'Less than 1 minute'
+  2: '1-5 minutes'
+  3: '5-15 minutes'
+  4: 'More than 15 minutes'
+  92: 'Not Applicable'
+SeizOccur:
+  q: 'When did the seizure occur?'
+  1: 'Immediately after the injury'
+  2: 'Within 30 minutes'
+  3: 'After 30 minutes'
+  92: 'Not Applicable'
+VomitLast:
+  q: 'When did the patient last vomit?'
+  1: 'Within the last hour'
+  2: '1-4 hours ago'
+  3: 'More than 4 hours ago'
+  92: 'Not Applicable'
+VomitNbr:
+  q: 'How many times has the patient vomited?'
+  1: 'Once'
+  2: 'Twice'
+  3: 'More than twice'
+  92: 'Not Applicable'
+VomitStart:
+  q: 'When did the vomiting begin?'
+  1: 'Before injury'
+  2: 'Within an hour of injury'
+  3: '1-4 hours after injury'
+  4: 'More than 4 hours after injury'
+  92: 'Not Applicable'
