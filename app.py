@@ -49,11 +49,11 @@ def results():
 
 @app.route('/model_weights', methods=['GET'])
 def get_weights():
-    return jsonify(isError=False, message="Success", weights=model)
+    return jsonify(isError=False, message="Success", weights=model, repo = 'https://github.com/mbowen97/tbi_app')
 
 @app.route('/model_variables', methods=['GET'])
 def get_variables():
-    return jsonify(isError=False, message="Success", variables=list(model.keys()))
+    return jsonify(isError=False, message="Success", variables=list(model.keys()), repo = 'https://github.com/mbowen97/tbi_app')
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
