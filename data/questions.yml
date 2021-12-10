@@ -12,7 +12,7 @@ AMSSleep:
   q: 'Is the patient sleeping more or less than usual?'
   0: 'No, but they are not acting normal'
   1: 'Yes'
-  2: 'No, they are acting normal'
+  92: 'No, they are acting normal'
 ActNorm:
   q: 'Is the patient acting normal?'
   0: 'No'
