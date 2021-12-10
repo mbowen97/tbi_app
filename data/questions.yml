@@ -21,6 +21,11 @@ Clav:
   q: 'Is there evidence of trauma (laceration, abrasion, hematoma, etc.) above the clavicles?'
   0: 'No'
   1: 'Yes'
+ClavOcc:
+  q: 'Is there evidence of trauma in the occipital region of the scalp?'
+  0: 'No, but there is evidence of trauma elsewhere on the scalp'
+  1: 'Yes'
+  92: 'No, there is no trauma on the scalp'
 Dizzy:
   q: 'Does the patient appear dizzy?'
   0: 'No'
