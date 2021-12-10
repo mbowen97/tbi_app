@@ -3,6 +3,11 @@ AMSAgitated:
   0: 'No, but they are not acting normal'
   1: 'Yes'
   92: 'No, they are acting normal'
+AMSRepeat:
+  q: 'Is the patient asking repetitive questions?'
+  0: 'No, but they are not acting normal'
+  1: 'Yes'
+  92: 'No, they are acting normal'
 ActNorm:
   q: 'Is the patient acting normal?'
   0: 'No'
